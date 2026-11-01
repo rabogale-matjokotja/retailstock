@@ -65,7 +65,7 @@ erDiagram
 - **`StockMovements` audit log**: every change in stock is traceable.
 - **CHECK constraints** enforce business rules (no negative stock, valid statuses, positive quantities).
 - **Trigger `trg_OrderItems_AfterInsert`** deducts stock on sale; the `QtyOnHand >= 0` check rolls back sales that would oversell.
-- **Indexes** are on the columns that reports filter and join on (see comments in `schema.sql`).
+- **Indexes** are on the columns that reports filter and join on.
 
 ## What's inside
 | File | Purpose |
