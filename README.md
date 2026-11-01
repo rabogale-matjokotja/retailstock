@@ -14,7 +14,7 @@ Microsoft SQL Server (T-SQL).
 ## Live dashboard
 https://rabomatjokotja777.github.io/retailstock-mssql/
 
-## Entity relationship diagram
+## Entity Relationship Diagram
 
 ```mermaid
 erDiagram
