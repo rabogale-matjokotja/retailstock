@@ -1,6 +1,3 @@
-/* ============================================================
-   Queries behind each panel of the dashboard (docs/index.html)
-   ============================================================ */
 USE RetailStock;
 GO
 
