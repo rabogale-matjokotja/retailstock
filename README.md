@@ -1,7 +1,7 @@
 <h1 align="center">RetailStock</h1>
 
 <p align="center">
-  <b>“Inventory and sales database for a small retailer </b> · MS SQL Server
+  <b>Inventory and sales database for a small retailer </b> · MS SQL Server
 </p>
 
 <p align="center">
