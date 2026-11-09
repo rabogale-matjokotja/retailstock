@@ -33,7 +33,7 @@ footer{color:var(--muted);font-size:13px;margin-top:20px}
 <body>
 <div class="wrap">
   <h1>RetailStock: Inventory &amp; Sales Dashboard</h1>
-  <p class="sub">Sample dataset, <span id="period"></span>. Every panel comes from a query in <code>queries/dashboard_queries.sql</code>, run against SQL Server.</p>
+  <p class="sub">Sample dataset (simulated, not a real business), <span id="period"></span>. Every panel comes from a query in <code>queries/dashboard_queries.sql</code>, run against SQL Server.</p>
 
   <div class="grid kpis" id="kpis"></div>
 
@@ -47,7 +47,7 @@ footer{color:var(--muted);font-size:13px;margin-top:20px}
   <div class="grid two">
     <div class="card scroll"><h2>Needs reordering (<code>vw_ReorderNeeded</code>)</h2>
       <table><thead><tr><th>Product</th><th>Supplier</th><th class="num">On hand</th><th class="num">Reorder at</th><th class="num">Lead</th></tr></thead><tbody id="reorder"></tbody></table></div>
-    <div class="card scroll"><h2>Slow movers, no sales (<code>vw_SlowMovers</code>)</h2>
+    <div class="card scroll"><h2>Slow movers, no sales in 90 days (<code>vw_SlowMovers</code>)</h2>
       <table><thead><tr><th>Product</th><th class="num">On hand</th><th class="num">Capital tied up</th></tr></thead><tbody id="slow"></tbody></table></div>
   </div>
 
