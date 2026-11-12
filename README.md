@@ -42,7 +42,7 @@ A static dashboard published with GitHub Pages. It shows revenue KPIs, weekly re
 
 | Decision | Why |
 |---|---|
-| **3NF schema** | Categories, suppliers and customers live in their own tables |
+| **3rd Normal Form schema** | Categories, suppliers and customers live in their own tables |
 | **`UnitPrice` stored on `OrderItems`** | Historical sales keep the price at the time of sale, even if the product price changes |
 | **`Inventory` separate from `Products`** | Stock changes constantly, product details rarely |
 | **`StockMovements` audit log** | Every change in stock is traceable |
